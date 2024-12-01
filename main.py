@@ -19,6 +19,7 @@ def hello_index():
         'message': 'Hello index!'
     }
 
+
 @app.get('/hello/')
 def hello(name: str = "World"):
     name = name.strip().title()
