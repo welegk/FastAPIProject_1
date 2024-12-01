@@ -12,7 +12,8 @@ def list_items():
         'item2',
         'item3',
         'item4',
-        'item5'
+        'item5',
+        'item6'
     ]
 
 
