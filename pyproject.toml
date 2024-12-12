@@ -11,6 +11,8 @@ uvicorn = "^0.32.1"
 fastapi = {extras = ["standart"], version = "^0.115.5"}
 sqlalchemy = {extras = ["asyncio"], version = "^2.0.36"}
 aiosqlite = "^0.20.0"
+mypy = "^1.13.0"
+alembic = "^1.14.0"
 
 
 [build-system]
